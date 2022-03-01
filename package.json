@@ -1,0 +1,20 @@
+{
+  "name": "todobackend-specs",
+  "version": "1.0.0",
+  "description": "todobackend acceptance tests",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Richard Yvarra",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.7.2",
+    "chai": "^4.3.6",
+    "chai-as-promised": "^7.1.1",
+    "mocha": "^9.2.1",
+    "mocha-jenkins-reporter": "^0.4.7",
+    "superagent": "^7.1.1",
+    "superagent-promise": "^1.1.0"
+  }
+}
